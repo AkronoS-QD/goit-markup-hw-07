@@ -1,6 +1,7 @@
 @import "./utils/variables";
 @import "./utils/container";
 @import "./components/page-header";
+@import "./modification/modification";
 @import "./components/logo-header";
 @import "./components/section-hero-web";
 @import "./components/section-goal";
@@ -9,4 +10,11 @@
 @import "./components/section-client";
 @import "./utils/footer-container";
 @import "./components/page-footer";
-@import "./modification/modification";
+@import "./components/porfolio-btn-filtr";
+@import "./components/portfolio-cards";
+@import "./components/portfolio-overlay";
+@import "./components/portfolio-card-frame";
+@import "./components/backdrop";
+@import "./components/modal-form";
+@import "./components/modal-chek";
+@import "./components/modal-submit";
