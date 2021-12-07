@@ -4,10 +4,12 @@
   box-sizing: inherit;
 }
 
-img {
-  display: block;
-  margin: 0;
-  padding: 0;
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .list {
@@ -15,6 +17,10 @@ img {
   margin: 0;
   list-style: none;
   text-decoration: none;
+}
+
+.cursors {
+  cursor: pointer;
 }
 
 .currentlink {
@@ -32,10 +38,6 @@ img {
   }
 }
 
-.cursors {
-  cursor: pointer;
-}
-
 .section-title {
   margin-bottom: 10px;
   font-weight: 700;
@@ -44,14 +46,4 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $title-text-color;
-}
-
-.visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
 }

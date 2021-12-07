@@ -5,12 +5,9 @@
   background: $background-color-accent;
 }
 
-//
 .footer-logo {
-  min-width: 220px;
   margin-bottom: 20px;
 }
-//
 
 .address {
   margin-bottom: 9px;
@@ -20,7 +17,7 @@
   color: $primary-white-color;
 }
 
-.page-footer__logo-footer {
+.page-footer__logo {
   align-self: flex-start;
   color: $primary-white-color;
 }
@@ -32,7 +29,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
@@ -65,14 +62,8 @@
 }
 
 .footer-net__link {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
   fill: $primary-white-color;
   background-color: #ffffff1a;
-  outline: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
@@ -84,14 +75,8 @@
 
 .footer-net__title {
   margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: $primary-white-color;
 }
-
 .footer-net__icon {
   display: flex;
   width: 20px;
